@@ -1,0 +1,23 @@
+public class Main {
+
+    public static void main(String[] args) {
+				//enter the number in place of xxxx;
+        int num = xxxx;
+        boolean flag = false;
+        for(int i = 2; i <= num/2; ++i)
+        {
+            //condition for checking a nonprime number
+            if(num % i == 0)
+            {
+                flag = true;
+                break;
+            }
+        }
+				//if flag is false, print number is a prime number.. 
+				//or print not a prime number...
+        if (!flag)
+            System.out.println(num + " is a prime number.");
+        else
+            System.out.println(num + " is not a prime number.");
+    }
+}
